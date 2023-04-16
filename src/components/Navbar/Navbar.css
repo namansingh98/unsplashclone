@@ -1,0 +1,123 @@
+
+.navbar__section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.navbar__logo {
+    display: flex;
+    margin-left: 30px;
+}
+
+.search__area {
+    align-items: center;
+    border: none;
+}
+
+.search__btn {
+    position: relative;
+    left: 30px;
+    color: rgb(156, 156, 153);
+    cursor: pointer;
+    font-size: 20px;
+    top: 5px;
+}
+
+.find__btn {
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+    color: rgb(156, 156, 153);
+    font-size: 20px;
+    top: 5px;
+
+}
+
+.search__area input {
+    width: 625px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 35px 35px 35px 35px;
+    border: none;
+    align-items: center;
+    background-color: #dddbdb;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    justify-content: space-between;
+    color: dimgray;
+}
+
+nav ul li a:hover {
+    color: hotpink;
+}
+
+.rainbow {
+    animation-play-state: paused;
+    background-image: linear-gradient(130deg, #39df9e, #00747b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textani 3s linear infinite alternate-reverse;
+}
+
+@keyframes textani {
+    0% {
+        background: linear-gradient(80deg, #fa00ff, #00e0ff 50%, #fa00ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: linear-gradient(455deg, #fa00ff, #00e0ff 50%, #fa00ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background: linear-gradient(10deg, #fa00ff, #00e0ff 50%, #fa00ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.nav__divider {
+    width: 1px;
+    background-color: #d1d1d1;
+    height: 30px;
+}
+
+.bx-menu {
+    font-size: 25px;
+}
+
+.submit__image {
+    height: 30px;
+    background-color: transparent;
+    width: 120px;
+    border: #d1d1d1 1px solid;
+}

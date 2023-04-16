@@ -1,0 +1,41 @@
+.searching__panel {
+    display: none ;
+    justify-content: center;
+}
+
+.searching__body {
+    background-color: aliceblue;
+    width: 780px;
+    padding: 1rem;
+
+}
+
+.content__wrapper {
+    display: flex;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1.2rem;
+}
+
+
+.trends__title {
+    margin: .7rem 0;
+}
+
+
+
+.content__wrapper>.trends__box {
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.content__wrapper :where(li) {
+
+    font-size: 13px;
+}
+
+.trending__topics {
+    display: flex;
+}
